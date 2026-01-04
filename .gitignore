@@ -1,0 +1,30 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 运行日志和调试截图 (防止泄露你的桌面隐私)
+running_log.txt
+debug_failed_state.png
+debug_found.png
+debug_*.png
+
+
+
+# 打包产生的临时文件和文件夹
+build/
+dist/
+*.spec
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置
+.vscode/
+.idea/
